@@ -323,54 +323,7 @@ function LandingPage() {
 
       {/* 6. PARA QUEM É — removido */}
 
-      {/* 7. TECNOLOGIAS */}
-      <Section id="tecnologias">
-        <div className="grid md:grid-cols-12 gap-12 items-center">
-          <div className="md:col-span-6">
-            <Eyebrow>Tecnologias e abordagem</Eyebrow>
-            <h2 className="font-serif text-4xl md:text-5xl leading-tight mb-8">
-              Harmonização íntima integral
-            </h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Combinamos a metodologia do FF Sculpt com outras abordagens
-              modernas e personalizados para entregar resultados naturais e
-              progressivos.
-            </p>
-            <p className="font-serif italic text-xl text-foreground/80 mt-8">
-              Cada paciente recebe um plano individualizado.
-            </p>
-          </div>
-
-          <div className="md:col-span-6">
-            <div className="space-y-4">
-              {[
-                { Icon: Zap, name: "FF Sculpt Intimor", tag: "Tecnologia principal" },
-                { Icon: Leaf, name: "Bioestimuladores de colágeno", tag: "Estímulo natural" },
-                { Icon: Sparkles, name: "Tecnologias de retração tecidual", tag: "Firmeza progressiva" },
-                { Icon: ClipboardCheck, name: "Protocolos personalizados", tag: "Plano único" },
-              ].map(({ Icon, name, tag }, i) => (
-                <div
-                  key={i}
-                  className="flex items-center gap-5 p-6 rounded-2xl border border-foreground/10 hover:border-foreground/30 transition-colors"
-                >
-                  <div
-                    className="w-14 h-14 rounded-full flex items-center justify-center shrink-0"
-                    style={{ background: "var(--bege)" }}
-                  >
-                    <Icon className="w-5 h-5 text-foreground/70" strokeWidth={1.2} />
-                  </div>
-                  <div>
-                    <p className="font-serif text-xl leading-tight">{name}</p>
-                    <p className="text-xs uppercase tracking-[0.15em] text-muted-foreground mt-1">
-                      {tag}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </Section>
+      {/* 7. TECNOLOGIAS — removido */}
 
       {/* 8. SOBRE A MÉDICA */}
       <Section id="sobre" className="bg-[var(--bege)]">
