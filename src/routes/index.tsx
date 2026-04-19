@@ -329,7 +329,7 @@ function LandingPage() {
           <div className="md:col-span-6">
             <Eyebrow>Tecnologias e abordagem</Eyebrow>
             <h2 className="font-serif text-4xl md:text-5xl leading-tight mb-8">
-              FF Sculpt Intimor & bioestimulação de colágeno.
+              Harmonização íntima integral
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               Combinamos tecnologias de retração tecidual, bioestimuladores de
