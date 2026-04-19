@@ -321,40 +321,7 @@ function LandingPage() {
         </div>
       </Section>
 
-      {/* 6. PARA QUEM É */}
-      <Section id="para-quem" className="bg-[var(--rose-soft)]/40">
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <Eyebrow>Para quem é</Eyebrow>
-          <h2 className="font-serif text-4xl md:text-5xl leading-tight">
-            Cada fase da vida pede um cuidado diferente.
-          </h2>
-        </div>
-
-        <div className="grid md:grid-cols-5 gap-4">
-          {[
-            { title: "Mulheres jovens", desc: "Com incômodos estéticos." },
-            { title: "Pós-gestação", desc: "Recuperando firmeza e conforto." },
-            { title: "Climatério & menopausa", desc: "Lidando com novas mudanças." },
-            { title: "Ressecamento vaginal", desc: "Em busca de alívio diário." },
-            { title: "Autoestima", desc: "Buscando confiança renovada." },
-          ].map((item, i) => (
-            <div
-              key={i}
-              className="bg-background rounded-2xl p-6 border border-foreground/5 hover:shadow-lg hover:-translate-y-1 transition-all"
-            >
-              <div className="font-serif text-3xl text-foreground/30 mb-4">
-                0{i + 1}
-              </div>
-              <h3 className="font-serif text-xl mb-2 leading-tight">
-                {item.title}
-              </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {item.desc}
-              </p>
-            </div>
-          ))}
-        </div>
-      </Section>
+      {/* 6. PARA QUEM É — removido */}
 
       {/* 7. TECNOLOGIAS */}
       <Section id="tecnologias">
