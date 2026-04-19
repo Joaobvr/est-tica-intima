@@ -301,25 +301,16 @@ function LandingPage() {
               <em className="italic text-foreground/60">qualidade de vida</em>.
             </h2>
           </div>
-          <div className="md:col-span-7 space-y-2">
-            {[
-              { Icon: Droplets, title: "Melhora da lubrificação vaginal" },
-              { Icon: HeartHandshake, title: "Redução de dor ou desconforto nas relações" },
-              { Icon: Activity, title: "Melhora da firmeza interna vaginal" },
-              { Icon: ShieldCheck, title: "Apoio em quadros leves de incontinência urinária" },
-              { Icon: Flower2, title: "Redução de desconfortos íntimos" },
-              { Icon: Sun, title: "Melhora da qualidade da vida íntima" },
-              { Icon: Sparkles, title: "Mais segurança e bem-estar" },
-            ].map(({ Icon, title }, i) => (
-              <div
-                key={i}
-                className="flex items-center gap-6 py-5 border-b border-foreground/10 group hover:pl-2 transition-all"
-              >
-                <Icon className="w-5 h-5 text-foreground/60 shrink-0" strokeWidth={1.2} />
-                <p className="text-lg text-foreground/80 flex-1">{title}</p>
-                <CircleCheck className="w-4 h-4 text-[var(--olive)] opacity-0 group-hover:opacity-100 transition-opacity" />
-              </div>
-            ))}
+          <div className="md:col-span-7 space-y-8">
+            <p className="text-xl md:text-2xl text-foreground/80 leading-relaxed font-light">
+              Todas nós queremos melhorar o aspecto geral; sua confiança e
+              autoestima e sua segurança para viver com prazer e plenitude
+              com firmeza na pele, na contração interna, sem excesso de pele,
+              sem escape de urina, sem pele murcha, sem excesso de volume.
+            </p>
+            <p className="font-serif text-2xl md:text-3xl italic leading-snug text-foreground/90 border-l-2 border-foreground/30 pl-6">
+              Nenhuma mulher se sente plena sem ter segurança em sua intimidade.
+            </p>
           </div>
         </div>
       </Section>
