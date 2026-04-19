@@ -306,8 +306,12 @@ function LandingPage() {
               Todas nós queremos melhorar algum detalhe em nossa intimidade. A
               confiança e autoestima; a segurança para viver com prazer e
               plenitude... firmeza na pele ou interna; o excesso de pele,
-              escape de urina, aspecto de pele murcha, excesso de volume... O
-              importante é identificar o que está limitando sua liberdade e
+              escape de urina, aspecto de pele murcha, excesso de volume... São
+              aspectos que, muitas vezes, evitamos questionar ou falar... Mas
+              podem minar sua confiança e sua felicidade.
+            </p>
+            <p className="text-xl md:text-2xl text-foreground/80 leading-relaxed font-light">
+              O importante é identificar o que está limitando sua liberdade e
               confiança e combater com coragem e segurança.
             </p>
             <p className="font-serif text-2xl md:text-3xl italic leading-snug text-foreground/90 border-l-2 border-foreground/30 pl-6">
