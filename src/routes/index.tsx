@@ -385,38 +385,7 @@ function LandingPage() {
         </div>
       </Section>
 
-      {/* 9. SEGURANÇA */}
-      <Section id="seguranca">
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <Eyebrow>Segurança e confiança</Eyebrow>
-          <h2 className="font-serif text-4xl md:text-5xl leading-tight">
-            Cuidado com base científica e olhar humano.
-          </h2>
-        </div>
-
-        <div className="grid md:grid-cols-5 gap-px bg-foreground/10 rounded-3xl overflow-hidden">
-          {[
-            { Icon: Stethoscope, title: "Avaliação individualizada" },
-            { Icon: ClipboardCheck, title: "Protocolos personalizados" },
-            { Icon: ShieldCheck, title: "Técnicas seguras" },
-            { Icon: Microscope, title: "Base científica" },
-            { Icon: HandHeart, title: "Acompanhamento próximo" },
-          ].map(({ Icon, title }, i) => (
-            <div
-              key={i}
-              className="bg-background p-8 flex flex-col items-center text-center gap-4"
-            >
-              <div
-                className="w-14 h-14 rounded-full flex items-center justify-center"
-                style={{ background: "var(--rose-soft)" }}
-              >
-                <Icon className="w-5 h-5 text-foreground/80" strokeWidth={1.2} />
-              </div>
-              <p className="font-serif text-lg leading-tight">{title}</p>
-            </div>
-          ))}
-        </div>
-      </Section>
+      {/* 9. SEGURANÇA — removido */}
 
       {/* 10. CTA FINAL */}
       <Section id="contato" className="pb-32">
