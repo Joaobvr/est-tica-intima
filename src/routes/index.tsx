@@ -275,7 +275,7 @@ function LandingPage() {
               { Icon: Scissors, label: "Sem corte" },
               { Icon: Sparkles, label: "Sem cicatrizes" },
               { Icon: ShieldCheck, label: "Sem cirurgia" },
-              { Icon: HeartHandshake, label: "Baixo risco de hematomas" },
+              { Icon: HeartHandshake, label: "Sem hematomas e sem sangramentos" },
               { Icon: Clock, label: "Recuperação rápida" },
               { Icon: Leaf, label: "Resultados progressivos" },
             ].map(({ Icon, label }, i) => (
