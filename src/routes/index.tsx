@@ -332,9 +332,9 @@ function LandingPage() {
               Harmonização íntima integral
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Combinamos tecnologias de retração tecidual, bioestimuladores de
-              colágeno e protocolos personalizados para entregar resultados
-              naturais e progressivos.
+              Combinamos a metodologia do FF Sculpt com outras abordagens
+              modernas e personalizados para entregar resultados naturais e
+              progressivos.
             </p>
             <p className="font-serif italic text-xl text-foreground/80 mt-8">
               Cada paciente recebe um plano individualizado.
