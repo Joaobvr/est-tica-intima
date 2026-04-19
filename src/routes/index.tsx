@@ -30,13 +30,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dra. Isabela Tovar — Harmonização Íntima Feminina" },
+      { title: "Dra. Isabella Tovar — Harmonização Íntima Feminina" },
       {
         name: "description",
         content:
-          "Harmonização íntima feminina com a Dra. Isabela Tovar: procedimentos sem corte, foco em saúde, conforto e autoestima. Avaliação individualizada.",
+          "Harmonização íntima feminina com a Dra. Isabella Tovar: procedimentos sem corte, foco em saúde, conforto e autoestima. Avaliação individualizada.",
       },
-      { property: "og:title", content: "Dra. Isabela Tovar — Harmonização Íntima Feminina" },
+      { property: "og:title", content: "Dra. Isabella Tovar — Harmonização Íntima Feminina" },
       {
         property: "og:description",
         content:
@@ -75,7 +75,7 @@ function LandingPage() {
       <header className="absolute top-0 inset-x-0 z-20 px-6 md:px-10 py-6 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <FlowerMark className="w-6 h-6" />
-          <span className="font-serif text-lg">Dra. Isabela Tovar</span>
+          <span className="font-serif text-lg">Dra. Isabella Tovar</span>
         </div>
         <a
           href="#contato"
@@ -345,7 +345,7 @@ function LandingPage() {
                 </div>
               </div>
               <div className="relative z-10 text-foreground bg-background/80 backdrop-blur rounded-2xl p-5">
-                <p className="font-serif text-2xl leading-tight">Dra. Isabela Tovar</p>
+                <p className="font-serif text-2xl leading-tight">Dra. Isabella Tovar</p>
                 <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mt-1">
                   CRM: ______
                 </p>
@@ -361,7 +361,7 @@ function LandingPage() {
             </h2>
             <div className="space-y-5 text-foreground/80 leading-relaxed">
               <p>
-                A Dra. Isabela Tovar é médica com foco em saúde da mulher,
+                A Dra. Isabella Tovar é médica com foco em saúde da mulher,
                 dedicada ao acompanhamento integral feminino.
               </p>
               <p>
@@ -421,7 +421,7 @@ function LandingPage() {
           <div className="flex items-center gap-2">
             <FlowerMark className="w-5 h-5" />
             <span className="font-serif text-sm text-foreground">
-              Dra. Isabela Tovar
+              Dra. Isabella Tovar
             </span>
           </div>
           <p>© {new Date().getFullYear()} — Todos os direitos reservados.</p>
