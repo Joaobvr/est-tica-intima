@@ -303,10 +303,12 @@ function LandingPage() {
           </div>
           <div className="md:col-span-7 space-y-8">
             <p className="text-xl md:text-2xl text-foreground/80 leading-relaxed font-light">
-              Todas nós queremos melhorar o aspecto geral; sua confiança e
-              autoestima e sua segurança para viver com prazer e plenitude
-              com firmeza na pele, na contração interna, sem excesso de pele,
-              sem escape de urina, sem pele murcha, sem excesso de volume.
+              Todas nós queremos melhorar algum detalhe em nossa intimidade. A
+              confiança e autoestima; a segurança para viver com prazer e
+              plenitude... firmeza na pele ou interna; o excesso de pele,
+              escape de urina, aspecto de pele murcha, excesso de volume... O
+              importante é identificar o que está limitando sua liberdade e
+              confiança e combater com coragem e segurança.
             </p>
             <p className="font-serif text-2xl md:text-3xl italic leading-snug text-foreground/90 border-l-2 border-foreground/30 pl-6">
               Nenhuma mulher se sente plena sem ter segurança em sua intimidade.
