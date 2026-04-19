@@ -167,6 +167,7 @@ function LandingPage() {
               "Desconforto com os pequenos lábios",
               "Ressecamento e alterações ao longo do tempo",
               "Perda de confiança na intimidade",
+              "Sensação de falta de firmeza interna",
             ].map((item, i) => (
               <div
                 key={i}
