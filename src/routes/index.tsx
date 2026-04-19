@@ -188,68 +188,7 @@ function LandingPage() {
         </div>
       </Section>
 
-      {/* 3. TRANSFORMAÇÃO */}
-      <Section id="transformacao">
-        <div className="text-center max-w-2xl mx-auto mb-20">
-          <Eyebrow>A transformação possível</Eyebrow>
-          <h2 className="font-serif text-4xl md:text-5xl leading-tight">
-            Cinco frentes de cuidado, um único objetivo:{" "}
-            <em className="italic text-foreground/60">você</em>.
-          </h2>
-        </div>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {[
-            {
-              Illust: VolumeIllustration,
-              title: "Redução de volume",
-              desc: "Diminuição da gordura no monte de Vênus para um contorno mais harmônico.",
-            },
-            {
-              Illust: FirmnessIllustration,
-              title: "Firmeza tecidual",
-              desc: "Melhora da firmeza e retração natural dos tecidos.",
-            },
-            {
-              Illust: RejuvenationIllustration,
-              title: "Tom e textura",
-              desc: "Pele mais uniforme, suave e com aparência rejuvenescida.",
-            },
-            {
-              Illust: RetractionIllustration,
-              title: "Estímulo de colágeno",
-              desc: "Bioestimulação para resultados progressivos e duradouros.",
-            },
-            {
-              Illust: ComfortIllustration,
-              title: "Lubrificação e conforto",
-              desc: "Melhora da hidratação íntima e do bem-estar diário.",
-            },
-            {
-              Illust: FlowerMark,
-              title: "Cuidado integral",
-              desc: "Plano construído com base na sua história e seus objetivos.",
-              tall: true,
-            },
-          ].map(({ Illust, title, desc }, i) => (
-            <div
-              key={i}
-              className="group p-8 rounded-3xl bg-[var(--bege)]/40 border border-foreground/5 hover:bg-[var(--bege)] transition-colors"
-            >
-              <div
-                className="w-24 h-24 rounded-2xl mb-6 flex items-center justify-center"
-                style={{ background: "var(--warm-white)" }}
-              >
-                <Illust className="w-16 h-16" />
-              </div>
-              <h3 className="font-serif text-2xl mb-2">{title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {desc}
-              </p>
-            </div>
-          ))}
-        </div>
-      </Section>
+      {/* 3. TRANSFORMAÇÃO — removido */}
 
       {/* 4. DIFERENCIAL DO MÉTODO */}
       <Section id="metodo" className="bg-foreground text-background">
