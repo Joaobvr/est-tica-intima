@@ -91,11 +91,11 @@ function LandingPage() {
           className="absolute inset-0 -z-10"
           style={{
             background:
-              "radial-gradient(ellipse at 70% 30%, var(--rose-soft) 0%, transparent 55%), radial-gradient(ellipse at 20% 80%, var(--nude) 0%, transparent 60%), var(--warm-white)",
+              "radial-gradient(ellipse at 70% 30%, var(--peach-pink) 0%, transparent 55%), radial-gradient(ellipse at 20% 80%, var(--olive-green) 0%, transparent 60%), var(--off-white)",
           }}
         />
         <div className="absolute top-1/4 right-[-120px] w-[400px] h-[400px] rounded-full opacity-40 blur-3xl -z-10"
-          style={{ background: "var(--rose-soft)" }}
+          style={{ background: "var(--peach-pink)" }}
         />
 
         <div className="mx-auto max-w-6xl grid md:grid-cols-12 gap-12 items-center">
@@ -134,7 +134,7 @@ function LandingPage() {
               className="aspect-[4/5] rounded-[3rem] relative overflow-hidden"
               style={{
                 background:
-                  "linear-gradient(160deg, var(--nude) 0%, var(--rose-soft) 100%)",
+                  "linear-gradient(160deg, var(--secondary) 0%, var(--peach-pink) 100%)",
               }}
             >
               <div className="absolute inset-8 rounded-[2.5rem] border border-white/40" />
@@ -151,7 +151,7 @@ function LandingPage() {
       </section>
 
       {/* 2. CONEXÃO (DOR) */}
-      <Section id="conexao" className="bg-[var(--bege)]">
+      <Section id="conexao" className="bg-secondary">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-4">
             <Eyebrow>Você se reconhece?</Eyebrow>
@@ -222,7 +222,7 @@ function LandingPage() {
                 key={i}
                 className="bg-foreground p-8 flex flex-col gap-4 hover:bg-foreground/95 transition-colors"
               >
-                <Icon className="w-6 h-6 text-[var(--rose-soft)]" strokeWidth={1.2} />
+                <Icon className="w-6 h-6 text-[var(--peach-pink)]" strokeWidth={1.2} />
                 <p className="font-serif text-xl text-background">{label}</p>
               </div>
             ))}
@@ -265,14 +265,14 @@ function LandingPage() {
       {/* 7. TECNOLOGIAS — removido */}
 
       {/* 8. SOBRE A MÉDICA */}
-      <Section id="sobre" className="bg-[var(--bege)]">
+      <Section id="sobre" className="bg-secondary">
         <div className="grid md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-5">
             <div
               className="aspect-[4/5] rounded-[2.5rem] relative overflow-hidden flex items-end p-8"
               style={{
                 background:
-                  "linear-gradient(180deg, var(--nude) 0%, var(--rose-soft) 100%)",
+                  "linear-gradient(180deg, var(--secondary) 0%, var(--peach-pink) 100%)",
               }}
             >
               <div className="absolute inset-0 flex items-center justify-center text-foreground/40">
@@ -332,7 +332,7 @@ function LandingPage() {
           className="rounded-[2.5rem] md:rounded-[3rem] px-8 md:px-16 py-20 md:py-28 text-center relative overflow-hidden"
           style={{
             background:
-              "radial-gradient(circle at 30% 20%, var(--rose-soft) 0%, transparent 50%), radial-gradient(circle at 70% 80%, var(--nude) 0%, transparent 60%), var(--bege)",
+              "radial-gradient(circle at 30% 20%, var(--peach-pink) 0%, transparent 50%), radial-gradient(circle at 70% 80%, var(--olive-green) 0%, transparent 60%), var(--secondary)",
           }}
         >
           <FlowerMark className="w-12 h-12 mx-auto mb-8 opacity-60" />
