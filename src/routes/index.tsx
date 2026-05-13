@@ -286,7 +286,7 @@ function LandingPage() {
               <div className="relative z-10 text-foreground bg-background/80 backdrop-blur rounded-2xl p-5">
                 <p className="font-serif text-2xl leading-tight">Dra. Isabella Tovar</p>
                 <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mt-1">
-                  CRM: ______
+                  CRM: 27286 GO
                 </p>
               </div>
             </div>
@@ -356,12 +356,16 @@ function LandingPage() {
 
       {/* FOOTER */}
       <footer className="px-6 md:px-10 py-10 border-t border-foreground/10">
-        <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-          <div className="flex items-center gap-2">
-            <FlowerMark className="w-5 h-5" />
-            <span className="font-serif text-sm text-foreground">
-              Dra. Isabella Tovar
-            </span>
+        <div className="mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between gap-6 text-xs text-muted-foreground">
+          <div className="flex flex-col items-center md:items-start gap-2 text-center md:text-left">
+            <div className="flex items-center gap-2">
+              <FlowerMark className="w-5 h-5" />
+              <span className="font-serif text-sm text-foreground">
+                Dra. Isabella Tovar
+              </span>
+            </div>
+            <p>MÉDICA | CRM: 27286 GO</p>
+            <p>Atendimento em Goiânia ou Online</p>
           </div>
           <p>© {new Date().getFullYear()} — Todos os direitos reservados.</p>
         </div>
