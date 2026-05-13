@@ -350,7 +350,7 @@ function LandingPage() {
             className="mt-12 rounded-full h-14 px-10 text-sm tracking-wide bg-foreground text-background hover:bg-foreground/90"
           >
             <a
-              href="https://wa.me/5562960930076?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+              href="https://wa.me/556296093076?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
               target="_blank"
               rel="noopener noreferrer"
             >
