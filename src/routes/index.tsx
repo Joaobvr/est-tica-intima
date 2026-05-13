@@ -117,7 +117,13 @@ function LandingPage() {
                 size="lg"
                 className="rounded-full h-14 px-8 text-sm tracking-wide bg-foreground text-background hover:bg-foreground/90"
               >
-                <a href="#para-quem">Quero entender se é para mim</a>
+                <a
+                  href="https://wa.me/556296093076?text=Ol%C3%A1%2C%20gostaria%20de%20entender%20se%20a%20harmoniza%C3%A7%C3%A3o%20%C3%ADntima%20%C3%A9%20para%20mim."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Quero entender se é para mim
+                </a>
               </Button>
               <Button
                 asChild
