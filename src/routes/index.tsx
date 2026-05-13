@@ -107,8 +107,8 @@ function LandingPage() {
               <br className="hidden md:block" /> confiança e bem-estar íntimo.
             </h1>
             <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed">
-              A harmonização íntima vai além da estética — é sobre conforto,
-              saúde e qualidade de vida.
+              A harmonização íntima vai muito além da estética. É sobre conforto,
+              saúde, confiança, prazer e qualidade de vida.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
               <Button
@@ -165,7 +165,7 @@ function LandingPage() {
               "Flacidez ou excesso de volume no monte de Vênus",
               "Escurecimento da pele ou perda de uniformidade",
               "Desconforto com os pequenos lábios",
-              "Ressecamento e alterações ao longo do tempo",
+              "Ressecamento, dor e alterações ao longo do tempo",
               "Perda de confiança na intimidade",
               "Sensação de falta de firmeza interna",
             ].map((item, i) => (
