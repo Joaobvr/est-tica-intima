@@ -26,6 +26,7 @@ import {
   ComfortIllustration,
   FlowerMark,
 } from "@/components/intimor/Illustrations";
+import draIsabellaPhoto from "@/assets/dra-isabella.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -276,12 +277,11 @@ function LandingPage() {
               }}
             >
               <div className="absolute inset-0 flex items-center justify-center text-foreground/40">
-                <div className="text-center">
-                  <FlowerMark className="w-16 h-16 mx-auto mb-3 opacity-50" />
-                  <p className="text-xs uppercase tracking-[0.2em]">
-                    Foto profissional
-                  </p>
-                </div>
+                <img
+                  src={draIsabellaPhoto}
+                  alt="Dra. Isabella Tovar"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
               </div>
               <div className="relative z-10 text-foreground bg-background/80 backdrop-blur rounded-2xl p-5">
                 <p className="font-serif text-2xl leading-tight">Dra. Isabella Tovar</p>
