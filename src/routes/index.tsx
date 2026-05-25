@@ -127,7 +127,7 @@ function LandingPage() {
                     }
                   }}
                 >
-                  Quero entender se é para mim
+                  Agendar Avaliação Médica
                 </a>
               </Button>
               <Button
