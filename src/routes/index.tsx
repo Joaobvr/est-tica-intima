@@ -388,6 +388,15 @@ function LandingPage() {
             </div>
             <p>MÉDICA | CRM: 27286 GO</p>
             <p>Atendimento em Goiânia ou Online</p>
+            <p>Vizz Clinic | Setor Marista</p>
+            <a
+              href="https://maps.app.goo.gl/TSMGRL7jCHvG4TXN9?g_st=ac"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-foreground transition"
+            >
+              Ver localização no mapa
+            </a>
           </div>
           <p>© {new Date().getFullYear()} — Todos os direitos reservados.</p>
         </div>
